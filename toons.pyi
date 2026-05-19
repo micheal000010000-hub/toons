@@ -80,7 +80,7 @@ def to_json(
     *,
     strict: bool = True,
     expand_paths: Optional[str] = None,
-    indent: Optional[int] = 2,
+    indent: Optional[int] = None,
 ) -> str:
     """Convert a TOON string to a JSON string.
 

@@ -119,7 +119,7 @@ mod toons {
     ///       "age": 30
     ///     }
     #[pyfunction]
-    #[pyo3(signature = (s, *, strict=true, expand_paths=None, indent=2))]
+    #[pyo3(signature = (s, *, strict=true, expand_paths=None, indent=None))]
     fn to_json(
         py: Python,
         s: String,
